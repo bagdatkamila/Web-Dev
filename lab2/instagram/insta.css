@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+}
+  
+body{
+    background-color: rgb(250, 250, 250);;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+#content-container{
+    display: flex;
+    align-items: center;
+    margin: 64px auto 0;
+    padding-bottom: 64px;
+}
+  
+.phones, .display-phone{
+    margin: 0 20px;
+}
+  
+.display-phone{
+    position: relative;
+}
+  
+.user{
+    margin: 12px 0 0;
+    justify-content: center;
+    top: .45em;
+}
+  
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.login-container, .signup-container{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(219, 219, 219, 1);
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+  
+.instagram-logo-box{
+    width: 175px;
+    margin: 22px 86.5px 0;
+}
+  
+.instagram-logo{
+    height: 51px;
+}
+  
+#login-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+  
+.inputs-container{
+    margin: 0 40px 6px;
+    width: 100%;
+}
+  
+.inputs-container input{
+    background: rgb(250, 250, 250);;
+    width: 100%;
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgba(219, 219, 219,1);
+    border-radius: 2px;
+    outline: none;
+}
+  
+.inputs-container input:focus{
+    border-color: rgb(180, 180, 180);
+}
+  
+.login-button{
+    background-color: rgb(76 181 249);
+    color: rgb(255,255,255);
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    width: 94%;
+    margin: 8px 40px;
+    box-sizing: content-box;
+}
+  
+
+.or-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin: 10px 40px 18px;
+    width: 100%;
+}
+  
+.line{
+    background-color: rgb(219, 219, 219);
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+  
+.or{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(114, 114, 114);
+}
+  
+.facebook-container{
+    text-align: center;
+    margin: 8px 40px;
+}
+  
+.facebook-logo{
+    width: 16px;
+    margin-right: 8px;
+}
+  
+.facebook-login{
+    color: rgb(56, 81, 133);
+    font-weight: 600;
+}
+  
+.password-forgot{
+    color: rgb(4, 63, 118);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+  
+.signup-container p, .get-container p{
+    color: #262626;;
+}
+  
+.signup-container p{
+    margin: 15px;
+    text-align: center;
+}
+  
+.signup{
+    color: #1898f7;
+    font-weight: 600;
+}
+  
+.get-container{
+    display: flex;
+    flex-direction: column;
+    height: 102px;
+    width: 350px;
+}
+  
+.get-container p{
+    margin: 10px 20px;
+    box-sizing: content-box;
+    text-align: center;
+}
+  
+.download-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+}
+  
+.download-googleplay{
+    margin-right: 8px;
+}
+  
+.microsoft, .googleplay{
+    height: 40px;
+    width: 136px;
+}
+  
+  
+@media(max-width: 785px){
+    .phones{
+      display: none;
+    }
+}
+  
+@media(max-width:400px){
+    .download-container{
+      flex-direction: column;
+      margin: 0 auto;
+    }
+}
