@@ -7,7 +7,7 @@ let todosJson = JSON.parse(localStorage.getItem("todos")) || [];
 showTodos();
 
 function getTodoHtml(item, index) {
-    let checked = item.status == "done" ? "checked" : "";
+    let checked = item.status == "completed" ? "checked" : "";
     return `
     <li class="todo">
       <label for="${index}">
@@ -36,6 +36,7 @@ input.addEventListener("keyup", e => {
     }
     addTodo(todo);
 });
+
 addButton.addEventListener("click", () => {
     let todo = input.value.trim();
     if (!todo) {
