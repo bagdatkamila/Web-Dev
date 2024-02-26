@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .title {
@@ -20,11 +20,12 @@
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
 }
 
 .product-container img {
     width: 150px;
-    height: 200px;
     border-radius: 5px;
     margin-bottom: 10px;
 }

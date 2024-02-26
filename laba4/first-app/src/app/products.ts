@@ -15,7 +15,7 @@ export const products = [
     price: 7158,
     rating: '4.9',
     description: 'Anua тонер Heartleaf 77% Soothing Toner 250 мл',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/hce/hfd/85246770413598.jpg?format=gallery-medium',
+    img: 'https://images.satu.kz/216524003_w600_h600_216524003.jpg',
     link: 'https://kaspi.kz/shop/p/anua-toner-heartleaf-77-soothing-toner-250-ml-113961265/?c=750000000'
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     price: 299,
     rating: '4.8',
     description: 'Детское пюре Агуша Яблоко-клубника-малина 90 г',
-    img: 'https://resources.cdn-kaspi.kz/img/m/p/h53/hc1/63957671575582.jpg?format=gallery-large',
+    img: 'https://cc.kz/upload/iblock/f42/xbptfcnbrylzyynxnijahz7ricltwjoz.jpg',
     link: 'https://kaspi.kz/shop/p/agusha-jabloko-klubnika-malina-90-g-100623509/?c=750000000'
   },
   {
