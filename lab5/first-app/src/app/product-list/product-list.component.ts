@@ -34,13 +34,24 @@ export class ProductListComponent implements OnInit {
     product.likes++;
   }
 
+  delete(product: Product) {
+    const index = this.products.indexOf(product);
+  
+    if (index !== -1) {
+      this.products.splice(index, 1);
+      window.alert('Product has been deleted');
+    } else {
+      window.alert('Product not found');
+    }
+  }
+
   share(link: string) {
     const shareMessage = `Product:  ${link}`;
     const telegramLink = `https://t.me/share/url?url=${encodeURIComponent(shareMessage)}`;
     window.location.href = telegramLink;
   }
 
-  share_whatsapp(link: string){
-    window.location.href = "https://web.whatsapp.com/"
-  }
+  // share_whatsapp(link: string){
+  //   window.location.href = "https://web.whatsapp.com/"
+  // }
 }

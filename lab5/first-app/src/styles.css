@@ -2,7 +2,8 @@
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: #616161;
+  color: #662E1C;
+  background-color: white;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -44,7 +45,7 @@ p {
 
 a {
   cursor: pointer;
-  color: #1976d2;
+  color: #AF4425;
   text-decoration: none;
 }
 
@@ -59,7 +60,7 @@ input {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #c9a66b;
 }
 
 label {
@@ -78,7 +79,7 @@ label {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #1976d2;
+  background-color: #662E1C;
   color: white;
   border: none;
 }
@@ -97,11 +98,11 @@ label {
 
 .fancy-button {
   background-color: white;
-  color: #1976d2;
+  color: #EBDCB2;
 }
 
 .fancy-button i.material-icons {
-  color: #1976d2;
+  color: #EBDCB2;
   padding-right: 4px;
 }
 
@@ -110,7 +111,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #1976d2;
+  background-color: #662E1C;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -119,7 +120,7 @@ app-top-bar {
 }
 
 app-top-bar h1 {
-  color: white;
+  color: #EBDCB2;
   margin: 0;
 }
 

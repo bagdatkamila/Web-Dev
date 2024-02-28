@@ -12,11 +12,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid gray;
+    border: 2px solid #c9a66b;
     border-radius: 20px;
     padding: 3%;
     margin-top: 20px;
-    margin-left: 400px;
+    margin-left: 350px;
 }
 
 .characteristics {
@@ -39,5 +39,5 @@ img {
 .content h2 {
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 600px;
+    margin-left: 500px;
 }

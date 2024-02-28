@@ -1,7 +1,10 @@
 <app-product-category></app-product-category>
 <div class="container">
     <div *ngFor="let product of products" class="product-container">
-        <img src="{{product.img}}" alt="product image">
+        <div class = "deletenimg">
+            <img src="{{product.img}}" alt="product image">
+            <button type="button" class="deletebtn" (click)="delete(product)">X</button>
+        </div>
         <h3 class="product-title">
             <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
                 {{product.name}}
@@ -13,7 +16,7 @@
         
         <button type="button" class="share-btn" (click)="share(product.link)">Share on Telegram</button>
 
-        <button type="button" class="share-btn-whatsapp" (click)="share_whatsapp(product.link)">Share on WhatsApp</button>
+        <!-- <button type="button" class="share-btn-whatsapp" (click)="share_whatsapp(product.link)">Share on WhatsApp</button> -->
         <button class="likebtn" type="button" (click)="like(product)">
             Likes: {{ product.likes }}
           </button>
