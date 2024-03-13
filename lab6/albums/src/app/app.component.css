@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #003b46; /* Цвет фона меню */
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    background-color: #07575b; /* Цвет фона при наведении */
+  }
+  
